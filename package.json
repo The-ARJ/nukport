@@ -1,5 +1,5 @@
 {
-  "name": "port-free",
+  "name": "free-port",
   "version": "1.0.0",
   "description": "Kill whatever is running on a port. One command, cross-platform, zero dependencies.",
   "keywords": [
@@ -20,7 +20,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "port-free": "dist/cli.js"
+    "free-port": "dist/cli.js"
   },
   "files": ["dist"],
   "scripts": {
