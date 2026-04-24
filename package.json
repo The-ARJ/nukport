@@ -1,5 +1,5 @@
 {
-  "name": "nukport",
+  "name": "@the-arj/nukport",
   "version": "1.0.0",
   "description": "Kill whatever is running on a port. One command, cross-platform, zero dependencies.",
   "keywords": [
