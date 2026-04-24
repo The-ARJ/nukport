@@ -22,13 +22,13 @@
   ],
   "author": "Aayush Raj Joshi <joshiaayush871@gmail.com> (https://github.com/The-ARJ)",
   "license": "MIT",
-  "homepage": "https://github.com/The-ARJ/port-free#readme",
+  "homepage": "https://github.com/The-ARJ/nukport#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/The-ARJ/port-free.git"
+    "url": "git+https://github.com/The-ARJ/nukport.git"
   },
   "bugs": {
-    "url": "https://github.com/The-ARJ/port-free/issues"
+    "url": "https://github.com/The-ARJ/nukport/issues"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
