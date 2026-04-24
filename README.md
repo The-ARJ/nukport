@@ -2,7 +2,6 @@
 
 [![npm version](https://img.shields.io/npm/v/port-free?color=crimson&style=flat-square)](https://www.npmjs.com/package/port-free)
 [![npm downloads](https://img.shields.io/npm/dm/port-free?style=flat-square)](https://www.npmjs.com/package/port-free)
-[![CI](https://img.shields.io/github/actions/workflow/status/The-ARJ/port-free/ci.yml?branch=main&label=CI&style=flat-square)](https://github.com/The-ARJ/port-free/actions)
 [![license](https://img.shields.io/npm/l/port-free?style=flat-square)](LICENSE)
 [![node](https://img.shields.io/node/v/port-free?style=flat-square)](package.json)
 [![zero deps](https://img.shields.io/badge/dependencies-0-brightgreen?style=flat-square)](#)
@@ -79,8 +78,6 @@ $ port-free --list
 
 ## Programmatic API
 
-Use `port-free` as a library inside your own scripts or tools:
-
 ```ts
 import { freePort, freePorts, findProcess, findAllListening } from "port-free";
 
@@ -104,7 +101,7 @@ const info = findProcess(3000);
 
 // List all listening processes
 const all = findAllListening();
-// [{ port: 3000, pid: 18423, name: "node" }, ...]
+// [{ port: 3000, pid: 12345, name: "node" }, ...]
 ```
 
 ### TypeScript types
@@ -130,8 +127,6 @@ type KillSignal = "SIGTERM" | "SIGKILL";
 ---
 
 ## Cross-platform
-
-Works out of the box on all major platforms — no extra tools needed.
 
 | Platform | How it finds the process | How it kills |
 |----------|--------------------------|--------------|
